@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MinesweeperGS</string>
+    <string name="start_title">Welcome</string>
+    <string name="game_title">Minesweeper</string>
+</resources>

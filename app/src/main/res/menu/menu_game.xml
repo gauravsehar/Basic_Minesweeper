@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+    <!--android:id="@+id/playerIcon"-->
+    <!--android:title="Icon"-->
+    <!--android:icon="@drawable/"-->
+    <!--app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/playerNameDisplay"
+        android:title="Name"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/reset"
+        android:title="Reset" />
+
+    <item android:title="Difficulty">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/easy"
+                    android:title="Easy 💣x2" />
+
+                <item
+                    android:id="@+id/medium"
+                    android:title="Medium 💣x8" />
+
+                <item
+                    android:id="@+id/expert"
+                    android:title="Expert 💣x15" />
+
+                <item
+                    android:id="@+id/custom"
+                    android:checked="true"
+                    android:title="Custom" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
